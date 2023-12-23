@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0 ; /* Example background color */
+}
+
+.container {
+    width: 90%;
+    max-width: 6000px; /* Adjust as needed */
+}
+
+#messageBox {
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Adjust the height as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Optional: for internal spacing */
+    border: 1px solid #ccc; /* Optional: for border styling */
+    border-radius: 20px; /* Optional: for rounded corners */
+}
+
+
+#instructions {
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 22px; /* Spacing below the instructions */
+    text-align: center; /* Center-align the text */
+    font-size: 1.3em; /* Make the font a bit larger */
+    color: #333; /* Set a readable text color */
+}
+
+
+#sendButton {
+    font-size: 1.2em; /* Larger font size */
+    padding: 10px 20px; /* Top/bottom and left/right padding */
+    border-radius: 15px; /* Rounded corners */
+    /* Optional: Set a specific width if needed */
+    /* Other styles like background-color, border, etc., can be added as well */
+}
+
+#webAppTitle {
+    font-size: 3em; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+    text-align: center; /* Center the title */
+    color: #000; /* Set title color, if needed */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+
+#response {
+    color: #333; /* A darker shade of gray, adjust as needed */
+    /* Other styles... */
+}
+
+
